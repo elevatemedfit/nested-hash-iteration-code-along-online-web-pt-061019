@@ -1,5 +1,5 @@
 require 'pry'
-contacts["Freddy Mercury"][:favorite_ice_cream_flavors].shift
+
 
   # This is the array we will be passing into the remove_strawberry method
   # contacts = {
@@ -16,5 +16,5 @@ contacts["Freddy Mercury"][:favorite_ice_cream_flavors].shift
   # }
 
 def remove_strawberry(contacts)
-
+contacts["Freddy Mercury"][:favorite_ice_cream_flavors].shift
 end
